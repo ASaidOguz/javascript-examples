@@ -7,6 +7,7 @@ makeUppercase("ahmet");
 
 function handleName(name,cb){
 const fullName=`${name} Oğuz`
+fullName.toUpperCase();
 cb(fullName)
 
 }
